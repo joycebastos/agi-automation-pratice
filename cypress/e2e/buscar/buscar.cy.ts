@@ -2,8 +2,8 @@
 
 import moment = require("moment");
 
-context("funcionalidade Buscar", () => {
-    describe("Cenarios de realizar uma busca com sucesso", () => {
+describe("funcionalidade Buscar", () => {
+    context("Cenarios de realizar uma busca com sucesso", () => {
         beforeEach(() => {
             cy.visit('/')
           })

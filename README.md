@@ -53,6 +53,29 @@ Todos os cenários de testes foram criados pensando na estrutura do cypress
 * context : geralmente utilizada para agrupar os cenários de testes de UM CASO de teste
 * it: utilizada para implementar o cenário de teste
 
+### Estrutura das pastas
+<pre>
+📦AGI-AUTOMATION-PRATICE 
+ ┣ 📂cypress 
+ ┃ ┣ 📂downloads 
+ ┃ ┣ 📂e2e  
+ ┃ ┃ ┗ 📂buscar  
+ ┃ ┃   ┣ 📜buscar.cy.ts 
+ ┃ ┣ 📂fixture  
+ ┃ ┗ 📂support  
+ ┃   ┣ 📂commands
+ ┃   ┃ ┗ 📜base_commands.ts   
+ ┣ 📜.gitignore  
+ ┣ 📜cypress.config.ts 
+ ┣ 📜package-lock.json  
+ ┣ 📜package.json  
+ ┣ 📜README.md
+ ┣ 📜tsconfig.json  
+ </pre>
+
+Os cenários de testes estão na pasta e2e
+
+### A prova
 Funcionalidade a ser testada: Buscar. Foram elencados três cenários envolvendo a funcionalidade buscar. São eles:
 
 

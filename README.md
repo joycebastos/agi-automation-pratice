@@ -49,12 +49,11 @@ npx cypress run
 
 ### Lógica utilizada para os cenários de testes
 Todos os cenários de testes foram criados pensando na estrutura do cypress
- describe: geralmente é usada pra agrupar casos de testes de uma funcionalidade
-   context : geralmente utilizada para agrupar os cenários de testes de UM CASO de teste
-     it: utilizada para implementar o cenário de teste
+ *describe: geralmente é usada pra agrupar casos de testes de uma funcionalidade
+   *context : geralmente utilizada para agrupar os cenários de testes de UM CASO de teste
+     *it: utilizada para implementar o cenário de teste
 
-Funcionalidade a ser testada: Buscar
-  Foram elencados três cenários envolvendo a funcionalidade buscar. São eles:
+Funcionalidade a ser testada: Buscar. Foram elencados três cenários envolvendo a funcionalidade buscar. São eles:
 
 
 * Cenário de uma busca com sucesso a partir de um título completo

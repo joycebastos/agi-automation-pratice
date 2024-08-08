@@ -53,7 +53,7 @@ Todos os cenários de testes foram criados pensando na estrutura do cypress
    context : geralmente utilizada para agrupar os cenários de testes de UM CASO de teste
      it: utilizada para implementar o cenário de teste
 
-* Funcionalidade a ser testada: Buscar
+Funcionalidade a ser testada: Buscar
   Foram elencados três cenários envolvendo a funcionalidade buscar. São eles:
 
 
